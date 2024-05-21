@@ -1,0 +1,103 @@
+#page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+#numberOfDice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+#title { 
+    font-size: 32px;
+}
+
+#NOD {
+    width: 180px;
+    height: 30px;
+}
+
+#rollButton {
+    width: 100px;
+    height: 30px;
+}
+
+#dice1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+}
+
+#dice1Dot {
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+#dice2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    gap: 25px;
+}
+
+#dice2Dot{
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+#dice3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    gap: 15px;
+}
+
+#dice3Dot {
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+#dice4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+}
+
+#dice4Dot {
+    display: flex;
+    gap: 20px;
+}
+
+#dice5, #dice6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+}
+
+#diceRow {
+    display: flex;
+    gap: 30px;
+}
